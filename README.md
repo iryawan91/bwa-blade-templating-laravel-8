@@ -1,0 +1,2 @@
+# bwa-blade-templating-laravel-8
+Pada materi kali ini, kita akan mempelajari tentang blade templating pada laravel 8  Blade adalah fitur yang disediakan Laravel untuk proses templating sederhana namun sangat bermanfaat dalam proses pengembangan tampilan halaman web.  Tidak seperti fitur templating PHP populer lainnya, Blade tidak membatasi pemrogram untuk menggunakan kode PHP biasa dalam membuat kode untuk tampilan.
