@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 
-@section('title','Stadiums')
+@section('title','Players')
 
 
         <!-- breadcumbs -->
         <header class="bg-white shadow">
             <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                 <h1 class="text-3xl font-bold text-gray-900">
-                    Stadiums
+                    Players
                 </h1>
             </div>
         </header>
@@ -23,7 +23,7 @@
                                 <tr>
                                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
                                     <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Club</th>
-                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Address</th>
+                                    <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Position</th>
                                     <th scope="col" class="relative px-6 py-3">
                                         <span class="sr-only">Detail</span>
                                     </th>
@@ -36,14 +36,14 @@
                                     <td class="px-6 py-4 whitespace-nowrap">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 h-10 w-10">
-                                                <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/badges/t8.svg" alt="">
+                                                <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p165153.png" alt="">
                                             </div>
                                             <div class="ml-4">
                                                 <div class="text-sm font-medium text-gray-900">
-                                                    Stamford Bridge
+                                                    Timo Werner
                                                 </div>
                                                 <div class="text-sm text-gray-500">
-                                                    40,853
+                                                    180 Cm
                                                 </div>
                                             </div>
                                         </div>
@@ -52,7 +52,7 @@
                                         Chelsea FC
                                     </td>
                                     <td class="px-6 py-4 whitespace-nowrap">
-                                        Stamford Bridge, Fulham Road, London, SW6 1HS
+                                        Forward
                                     </td>
                                     <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                         <a href="#" class="text-indigo-600 hover:text-indigo-900">Detail</a>
@@ -63,23 +63,23 @@
                                     <td class="px-6 py-4 whitespace-nowrap">
                                         <div class="flex items-center">
                                             <div class="flex-shrink-0 h-10 w-10">
-                                                <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/badges/t3.svg" alt="">
+                                                <img class="h-10 w-10 rounded-full" src="https://resources.premierleague.com/premierleague/photos/players/250x250/p103025.png" alt="">
                                             </div>
                                             <div class="ml-4">
                                                 <div class="text-sm font-medium text-gray-900">
-                                                    Emirates Stadium
+                                                    Riyad Mahrez
                                                 </div>
                                                 <div class="text-sm text-gray-500">
-                                                    60,260
+                                                    179 Cm
                                                 </div>
                                             </div>
                                         </div>
                                     </td>
                                     <td class="px-6 py-4 whitespace-nowrap">
-                                        Arsenal
+                                        Manchester City
                                     </td>
                                     <td class="px-6 py-4 whitespace-nowrap">
-                                        Highbury House, 75 Drayton Park, London, N5 1BU
+                                        Forward
                                     </td>
                                     <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                                         <a href="#" class="text-indigo-600 hover:text-indigo-900">Detail</a>
