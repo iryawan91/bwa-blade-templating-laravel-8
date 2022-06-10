@@ -3,6 +3,8 @@
 
 @section('title','Stadiums')
 
+@section('content')
+
 
         <!-- breadcumbs -->
         <header class="bg-white shadow">
@@ -94,7 +96,6 @@
             </div>
         </div>
         
-@section('content')
 
 @endsection
 

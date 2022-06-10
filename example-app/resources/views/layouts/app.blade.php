@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @include('include meta')
+    @include('includes.meta')
     <title>@yield('title') | Landing Page </title>
 
 
@@ -20,7 +20,9 @@
 </head>
 <body>
 
+@include('includes.meta')
 @include('includes.header')
+
     @yield('content')
 @include('includes.footer')
 
