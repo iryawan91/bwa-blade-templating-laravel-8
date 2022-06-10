@@ -47,7 +47,7 @@
 
                         <!-- Right Column -->
                         <div class="w-full lg:w-1/2 text-center justify-center flex pr-0">
-                            <img id="hero-header-2-3" src="assets/img/hero-1.svg" alt="" />
+                            <img id="hero-header-2-3" src="{{ url('assets/img/hero-1.svg') }}" alt="" />
                         </div>
                     </div>
                 </div>
